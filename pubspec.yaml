@@ -1,0 +1,49 @@
+name: contabilidade_amiga
+description: "Um aplicativo para controle de contabilidade de entradas e saídas."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0' # Verifique se a sua versão do Flutter/Dart é compatível
+
+# ===============================================
+# DEPENDÊNCIAS DO PROJETO
+# ===============================================
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Ícones padrão do iOS
+  cupertino_icons: ^1.0.8
+
+  # Dependências do Firebase
+  firebase_core: ^2.32.0      # Essencial para inicializar o Firebase
+  firebase_auth: ^4.20.0      # Para o sistema de Login (Email, Google, etc)
+  cloud_firestore: ^4.17.5    # Banco de dados em tempo real
+
+  # Dependência para o Login com Google
+  google_sign_in: ^6.2.1
+
+  # Dependência para os Gráficos
+  fl_chart: ^0.68.0
+
+  # Dependência para formatar datas
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+# ===============================================
+# CONFIGURAÇÕES DO FLUTTER
+# ===============================================
+flutter:
+  uses-material-design: true
+
+  # Configuração da pasta de assets (para imagens como o logo do Google)
+  # Lembre-se de criar uma pasta chamada "assets" na raiz do seu projeto
+  assets:
+    - assets/
+

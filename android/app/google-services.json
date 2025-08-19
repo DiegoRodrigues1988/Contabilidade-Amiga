@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1013473342082",
+    "project_id": "contabilidade-amiga-25e7e",
+    "storage_bucket": "contabilidade-amiga-25e7e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013473342082:android:57ab0ce1d2ac296374ba9b",
+        "android_client_info": {
+          "package_name": "com.example.contabilidade_amiga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSvtrQnNr7vncoFl903IjxZ7T6X0prP9g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
